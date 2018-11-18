@@ -15,7 +15,6 @@ pipeline {
             steps {
                 script {
                     app = docker.build("imranvs/train-schedule")
-                    }
                 }
             }
         }
